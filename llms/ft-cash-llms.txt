@@ -1,0 +1,17 @@
+# FTCash
+
+> FTCash (ftcash) is a Mumbai, India based financial services / fintech company advancing financial inclusion for micro-merchants and small and medium enterprises (SMEs) through digital payment acceptance and working-capital business loans. Portfolio company of 500 Global. No public developer program or API is published at this time.
+
+## Company
+- [Website](https://ftcash.com): FTCash marketing site
+- [Privacy Policy](https://ftcash.com/privacy): FTCash payment privacy policy
+- [Terms of Service](https://ftcash.com/terms): FTCash terms of service
+- [LinkedIn](https://www.linkedin.com/company/ftcash): Company profile
+- [Twitter/X](https://twitter.com/ftcashapp): @ftcashapp
+
+## Artifacts
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/ft-cash/refs/heads/main/security/ft-cash-domain-security.yml): Live TLS/HSTS/DNS security posture of ftcash.com
+
+## Notes
+- No public API, OpenAPI, SDK, MCP server, or developer documentation was discoverable as of 2026-07-19.
+- This profile is a portfolio-lead company stub maintained by the API Evangelist network.

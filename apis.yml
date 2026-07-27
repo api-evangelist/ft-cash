@@ -1,7 +1,17 @@
 aid: ft-cash
 name: FT Cash
-description: FT Cash is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  FTCash (ftcash) is a Mumbai, India based financial services / fintech company
+  focused on financial inclusion for micro-merchants and small and medium
+  enterprises (SMEs). It provides digital payment acceptance and working-capital
+  business loans to small offline retailers and merchants who are typically
+  underserved by traditional banking, enabling them to accept digital payments
+  and access short-term credit. FTCash was surfaced as a portfolio company of
+  500 Global (500 Startups) and added to the API Evangelist network. At this
+  time FTCash operates a public marketing website but publishes no public
+  developer program, API documentation, or machine-readable API artifacts, so
+  this profile is limited to verified company identity plus a live
+  domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/ft-cash/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.ftcash.com/instant_loans/img/ftcash-color.png
 tags:
 - Company
+- Financial Services
+- Fintech
+- Payments
+- Lending
+- SME
+- Financial Inclusion
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://ftcash.com
+- type: PrivacyPolicy
+  url: https://ftcash.com/privacy
+- type: TermsOfService
+  url: https://ftcash.com/terms
+- type: DomainSecurity
+  url: security/ft-cash-domain-security.yml
+- type: LLMsTxt
+  url: llms/ft-cash-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
