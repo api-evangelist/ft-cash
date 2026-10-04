@@ -47,11 +47,11 @@ modified: '2026-07-19'
 image: https://www.ftcash.com/instant_loans/img/ftcash-color.png
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Payments
 - Lending
-- SME
+- Small Business
 - Financial Inclusion
 - India
 tags_raw:
@@ -63,6 +63,7 @@ tags_raw:
 - SME
 - Financial Inclusion
 - India
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
